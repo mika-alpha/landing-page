@@ -7,15 +7,19 @@ body{
     margin: 0;
     display:flex;
     flex-direction:column;
-    justify-content: center;
 }
 
 .header{
     display:flex;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
 }
 
+#logo{
+    font-weight: 700;
+}
 .header ul{
     display: flex;
     gap: 20px;
@@ -37,7 +41,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding-bottom: 50px;
+    padding: 100px 0px;
 }
 
 .hero{
@@ -61,12 +65,13 @@ body{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    display: inline;
+    margin: 0;
 }
 
 #subtext{
     font-size: 18px;
     color:#E5E7EB;
+    margin-top: 0;
 }
 
 a:visited, 
@@ -80,9 +85,9 @@ a:link{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 300px 100px;
+    justify-content: center;
+    padding-bottom: 100px;
 }
-
 .information{
     font-size: 36px;
     font-weight: 900;
@@ -91,7 +96,7 @@ a:link{
 
 .images{
     display: flex;
-    gap: 50px;
+    gap: 70px;
 }
 
 .card{
@@ -99,7 +104,7 @@ a:link{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+    width: 200px;
 }
 
 .card img{
@@ -112,16 +117,69 @@ a:link{
 
 .lower{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    padding: 100px 300px 100px;
     color:#1F2937;
+    padding: 100px;
+}
 
+.lower p{
+    width: 1000px;
 }
 
 .lower span{
     float: right;
     font-weight: 700;
+}
+
+.lowest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.banner{
+    width: 1000px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    border: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    color:#E5E7EB
+}
+
+.banner span{
+    font-weight: 900;
+}
+
+.banner button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    font-weight: 900;
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    margin-top: auto;
+    bottom: 0;
+
+    padding: 20px;
+    color: #E5E7EB;
+    font-weight: 900;
+    
 }
