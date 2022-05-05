@@ -1,8 +1,10 @@
 *{
     font-family: 'Roboto', sans-serif;
+
 }
 
-.main{
+body{
+    margin: 0;
     display:flex;
     flex-direction:column;
 }
@@ -11,13 +13,18 @@
     display:flex;
     flex-direction:row;
     justify-content: space-around;
+    padding:0;
 }
 
 .header ul{
     display: flex;
     gap: 20px;
-    text-decoration: none;
     list-style: none;
+}
+
+.header p{
+    font-size: 24px;
+    color:#F9FAF8
 }
 
 .uppest,
@@ -26,8 +33,13 @@
 }
 .uppest{
     display:flex;
-    justify-content: space-around;
-    padding: 50px;
+    gap: 30px;
+    padding: 100px 300px;
+}
+
+.uppest img{
+    width:600px;
+    height: 300px;
 }
 
 #maintext{
@@ -37,6 +49,13 @@
 }
 
 #subtext{
+    font-size: 18px;
+    color:#E5E7EB
+}
 
-
+a:visited, 
+a:link{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
